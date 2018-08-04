@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4163F331917CA3A00F832BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F321917CA3A00F832BB /* Foundation.framework */; };
+		D4163F351917CA3A00F832BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F341917CA3A00F832BB /* CoreGraphics.framework */; };
+		D4163F371917CA3A00F832BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F361917CA3A00F832BB /* UIKit.framework */; };
+		D4163F3D1917CA3A00F832BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4163F3B1917CA3A00F832BB /* InfoPlist.strings */; };
+		D4163F3F1917CA3A00F832BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4163F3E1917CA3A00F832BB /* main.m */; };
+		D4163F431917CA3A00F832BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4163F421917CA3A00F832BB /* AppDelegate.m */; };
+		D4163F461917CA3A00F832BB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4163F441917CA3A00F832BB /* Main_iPhone.storyboard */; };
+		D4163F491917CA3A00F832BB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4163F471917CA3A00F832BB /* Main_iPad.storyboard */; };
+		D4163F4C1917CA3A00F832BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4163F4B1917CA3A00F832BB /* ViewController.m */; };
+		D4163F4E1917CA3A00F832BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4163F4D1917CA3A00F832BB /* Images.xcassets */; };
+		D4163F551917CA3A00F832BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F541917CA3A00F832BB /* XCTest.framework */; };
+		D4163F561917CA3A00F832BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F321917CA3A00F832BB /* Foundation.framework */; };
+		D4163F571917CA3A00F832BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4163F361917CA3A00F832BB /* UIKit.framework */; };
+		D4163F5F1917CA3A00F832BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4163F5D1917CA3A00F832BB /* InfoPlist.strings */; };
+		D4163F611917CA3A00F832BB /* TimeKeeper7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4163F601917CA3A00F832BB /* TimeKeeper7Tests.m */; };
+		D4163F6C1917D35800F832BB /* QBFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D4163F6B1917D35800F832BB /* QBFlatButton.m */; };
+		D41817FC191CE28200A351B6 /* TotalTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D41817FB191CE28200A351B6 /* TotalTimeLabel.m */; };
+		D418184D191D437F00A351B6 /* FirstJWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = D418184A191D437F00A351B6 /* FirstJWGCircleCounter.m */; };
+		D418184E191D437F00A351B6 /* JWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = D418184C191D437F00A351B6 /* JWGCircleCounter.m */; };
+		D4181851191D484B00A351B6 /* SetJWGCircleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4181850191D484B00A351B6 /* SetJWGCircleCounter.m */; };
+		D41818541920C3CB00A351B6 /* SectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D41818531920C3CB00A351B6 /* SectionView.m */; };
+		D418185719220A2300A351B6 /* SectionViewTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = D418185619220A2300A351B6 /* SectionViewTitle.m */; };
+		D45970EE191A1D460002088B /* StartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D45970ED191A1D460002088B /* StartButton.m */; };
+		D45970F1191A25BF0002088B /* FirstViewToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = D45970F0191A25BF0002088B /* FirstViewToolbar.m */; };
+		D45970F3191A2F0B0002088B /* settingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D45970F2191A2F0B0002088B /* settingButton.png */; };
+		D45970F6191A4F7D0002088B /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D45970F5191A4F7D0002088B /* PickerView.m */; };
+		D45970FB191A597D0002088B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45970FA191A597D0002088B /* QuartzCore.framework */; };
+		D4597165191CDA6B0002088B /* FadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D4597164191CDA6B0002088B /* FadeAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4163F581917CA3A00F832BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4163F271917CA3A00F832BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4163F2E1917CA3A00F832BB;
+			remoteInfo = TimeKeeper7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4163F2F1917CA3A00F832BB /* TimeKeeper7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeKeeper7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4163F321917CA3A00F832BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4163F341917CA3A00F832BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4163F361917CA3A00F832BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4163F3A1917CA3A00F832BB /* TimeKeeper7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeKeeper7-Info.plist"; sourceTree = "<group>"; };
+		D4163F3C1917CA3A00F832BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4163F3E1917CA3A00F832BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4163F401917CA3A00F832BB /* TimeKeeper7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimeKeeper7-Prefix.pch"; sourceTree = "<group>"; };
+		D4163F411917CA3A00F832BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4163F421917CA3A00F832BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4163F451917CA3A00F832BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D4163F481917CA3A00F832BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D4163F4A1917CA3A00F832BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4163F4B1917CA3A00F832BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4163F4D1917CA3A00F832BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D4163F531917CA3A00F832BB /* TimeKeeper7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeKeeper7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4163F541917CA3A00F832BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D4163F5C1917CA3A00F832BB /* TimeKeeper7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimeKeeper7Tests-Info.plist"; sourceTree = "<group>"; };
+		D4163F5E1917CA3A00F832BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4163F601917CA3A00F832BB /* TimeKeeper7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimeKeeper7Tests.m; sourceTree = "<group>"; };
+		D4163F6A1917D35800F832BB /* QBFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBFlatButton.h; sourceTree = "<group>"; };
+		D4163F6B1917D35800F832BB /* QBFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBFlatButton.m; sourceTree = "<group>"; };
+		D41817FA191CE28200A351B6 /* TotalTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TotalTimeLabel.h; sourceTree = "<group>"; };
+		D41817FB191CE28200A351B6 /* TotalTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TotalTimeLabel.m; sourceTree = "<group>"; };
+		D4181849191D437F00A351B6 /* FirstJWGCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstJWGCircleCounter.h; sourceTree = "<group>"; };
+		D418184A191D437F00A351B6 /* FirstJWGCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstJWGCircleCounter.m; sourceTree = "<group>"; };
+		D418184B191D437F00A351B6 /* JWGCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWGCircleCounter.h; sourceTree = "<group>"; };
+		D418184C191D437F00A351B6 /* JWGCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWGCircleCounter.m; sourceTree = "<group>"; };
+		D418184F191D484B00A351B6 /* SetJWGCircleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetJWGCircleCounter.h; sourceTree = "<group>"; };
+		D4181850191D484B00A351B6 /* SetJWGCircleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetJWGCircleCounter.m; sourceTree = "<group>"; };
+		D41818521920C3CB00A351B6 /* SectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionView.h; sourceTree = "<group>"; };
+		D41818531920C3CB00A351B6 /* SectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionView.m; sourceTree = "<group>"; };
+		D418185519220A2300A351B6 /* SectionViewTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionViewTitle.h; sourceTree = "<group>"; };
+		D418185619220A2300A351B6 /* SectionViewTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionViewTitle.m; sourceTree = "<group>"; };
+		D45970EC191A1D460002088B /* StartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartButton.h; sourceTree = "<group>"; };
+		D45970ED191A1D460002088B /* StartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartButton.m; sourceTree = "<group>"; };
+		D45970EF191A25BF0002088B /* FirstViewToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewToolbar.h; sourceTree = "<group>"; };
+		D45970F0191A25BF0002088B /* FirstViewToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewToolbar.m; sourceTree = "<group>"; };
+		D45970F2191A2F0B0002088B /* settingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingButton.png; sourceTree = "<group>"; };
+		D45970F4191A4F7D0002088B /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		D45970F5191A4F7D0002088B /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		D45970FA191A597D0002088B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4597163191CDA6B0002088B /* FadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FadeAnimation.h; sourceTree = "<group>"; };
+		D4597164191CDA6B0002088B /* FadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FadeAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4163F2C1917CA3A00F832BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D45970FB191A597D0002088B /* QuartzCore.framework in Frameworks */,
+				D4163F351917CA3A00F832BB /* CoreGraphics.framework in Frameworks */,
+				D4163F371917CA3A00F832BB /* UIKit.framework in Frameworks */,
+				D4163F331917CA3A00F832BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4163F501917CA3A00F832BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4163F551917CA3A00F832BB /* XCTest.framework in Frameworks */,
+				D4163F571917CA3A00F832BB /* UIKit.framework in Frameworks */,
+				D4163F561917CA3A00F832BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4163F261917CA3A00F832BB = {
+			isa = PBXGroup;
+			children = (
+				D4163F381917CA3A00F832BB /* TimeKeeper7 */,
+				D4163F5A1917CA3A00F832BB /* TimeKeeper7Tests */,
+				D4163F311917CA3A00F832BB /* Frameworks */,
+				D4163F301917CA3A00F832BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4163F301917CA3A00F832BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4163F2F1917CA3A00F832BB /* TimeKeeper7.app */,
+				D4163F531917CA3A00F832BB /* TimeKeeper7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4163F311917CA3A00F832BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D45970FA191A597D0002088B /* QuartzCore.framework */,
+				D4163F321917CA3A00F832BB /* Foundation.framework */,
+				D4163F341917CA3A00F832BB /* CoreGraphics.framework */,
+				D4163F361917CA3A00F832BB /* UIKit.framework */,
+				D4163F541917CA3A00F832BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4163F381917CA3A00F832BB /* TimeKeeper7 */ = {
+			isa = PBXGroup;
+			children = (
+				D4181848191D437F00A351B6 /* JWGCircleCounter */,
+				D4163F411917CA3A00F832BB /* AppDelegate.h */,
+				D4163F421917CA3A00F832BB /* AppDelegate.m */,
+				D4163F441917CA3A00F832BB /* Main_iPhone.storyboard */,
+				D4163F471917CA3A00F832BB /* Main_iPad.storyboard */,
+				D4163F4A1917CA3A00F832BB /* ViewController.h */,
+				D4163F4B1917CA3A00F832BB /* ViewController.m */,
+				D45970EC191A1D460002088B /* StartButton.h */,
+				D45970ED191A1D460002088B /* StartButton.m */,
+				D41817FA191CE28200A351B6 /* TotalTimeLabel.h */,
+				D41817FB191CE28200A351B6 /* TotalTimeLabel.m */,
+				D45970EF191A25BF0002088B /* FirstViewToolbar.h */,
+				D45970F0191A25BF0002088B /* FirstViewToolbar.m */,
+				D41818521920C3CB00A351B6 /* SectionView.h */,
+				D41818531920C3CB00A351B6 /* SectionView.m */,
+				D418185519220A2300A351B6 /* SectionViewTitle.h */,
+				D418185619220A2300A351B6 /* SectionViewTitle.m */,
+				D45970F4191A4F7D0002088B /* PickerView.h */,
+				D45970F5191A4F7D0002088B /* PickerView.m */,
+				D4597163191CDA6B0002088B /* FadeAnimation.h */,
+				D4597164191CDA6B0002088B /* FadeAnimation.m */,
+				D45970F2191A2F0B0002088B /* settingButton.png */,
+				D4163F4D1917CA3A00F832BB /* Images.xcassets */,
+				D4163F391917CA3A00F832BB /* Supporting Files */,
+			);
+			path = TimeKeeper7;
+			sourceTree = "<group>";
+		};
+		D4163F391917CA3A00F832BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4163F3A1917CA3A00F832BB /* TimeKeeper7-Info.plist */,
+				D4163F3B1917CA3A00F832BB /* InfoPlist.strings */,
+				D4163F3E1917CA3A00F832BB /* main.m */,
+				D4163F401917CA3A00F832BB /* TimeKeeper7-Prefix.pch */,
+				D4163F6A1917D35800F832BB /* QBFlatButton.h */,
+				D4163F6B1917D35800F832BB /* QBFlatButton.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4163F5A1917CA3A00F832BB /* TimeKeeper7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4163F601917CA3A00F832BB /* TimeKeeper7Tests.m */,
+				D4163F5B1917CA3A00F832BB /* Supporting Files */,
+			);
+			path = TimeKeeper7Tests;
+			sourceTree = "<group>";
+		};
+		D4163F5B1917CA3A00F832BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4163F5C1917CA3A00F832BB /* TimeKeeper7Tests-Info.plist */,
+				D4163F5D1917CA3A00F832BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4181848191D437F00A351B6 /* JWGCircleCounter */ = {
+			isa = PBXGroup;
+			children = (
+				D4181849191D437F00A351B6 /* FirstJWGCircleCounter.h */,
+				D418184A191D437F00A351B6 /* FirstJWGCircleCounter.m */,
+				D418184F191D484B00A351B6 /* SetJWGCircleCounter.h */,
+				D4181850191D484B00A351B6 /* SetJWGCircleCounter.m */,
+				D418184B191D437F00A351B6 /* JWGCircleCounter.h */,
+				D418184C191D437F00A351B6 /* JWGCircleCounter.m */,
+			);
+			path = JWGCircleCounter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4163F2E1917CA3A00F832BB /* TimeKeeper7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4163F641917CA3A00F832BB /* Build configuration list for PBXNativeTarget "TimeKeeper7" */;
+			buildPhases = (
+				D4163F2B1917CA3A00F832BB /* Sources */,
+				D4163F2C1917CA3A00F832BB /* Frameworks */,
+				D4163F2D1917CA3A00F832BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeKeeper7;
+			productName = TimeKeeper7;
+			productReference = D4163F2F1917CA3A00F832BB /* TimeKeeper7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4163F521917CA3A00F832BB /* TimeKeeper7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4163F671917CA3A00F832BB /* Build configuration list for PBXNativeTarget "TimeKeeper7Tests" */;
+			buildPhases = (
+				D4163F4F1917CA3A00F832BB /* Sources */,
+				D4163F501917CA3A00F832BB /* Frameworks */,
+				D4163F511917CA3A00F832BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4163F591917CA3A00F832BB /* PBXTargetDependency */,
+			);
+			name = TimeKeeper7Tests;
+			productName = TimeKeeper7Tests;
+			productReference = D4163F531917CA3A00F832BB /* TimeKeeper7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4163F271917CA3A00F832BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jinsei Shima";
+				TargetAttributes = {
+					D4163F521917CA3A00F832BB = {
+						TestTargetID = D4163F2E1917CA3A00F832BB;
+					};
+				};
+			};
+			buildConfigurationList = D4163F2A1917CA3A00F832BB /* Build configuration list for PBXProject "TimeKeeper7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4163F261917CA3A00F832BB;
+			productRefGroup = D4163F301917CA3A00F832BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4163F2E1917CA3A00F832BB /* TimeKeeper7 */,
+				D4163F521917CA3A00F832BB /* TimeKeeper7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4163F2D1917CA3A00F832BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4163F491917CA3A00F832BB /* Main_iPad.storyboard in Resources */,
+				D45970F3191A2F0B0002088B /* settingButton.png in Resources */,
+				D4163F4E1917CA3A00F832BB /* Images.xcassets in Resources */,
+				D4163F461917CA3A00F832BB /* Main_iPhone.storyboard in Resources */,
+				D4163F3D1917CA3A00F832BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4163F511917CA3A00F832BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4163F5F1917CA3A00F832BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4163F2B1917CA3A00F832BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4597165191CDA6B0002088B /* FadeAnimation.m in Sources */,
+				D4163F4C1917CA3A00F832BB /* ViewController.m in Sources */,
+				D41818541920C3CB00A351B6 /* SectionView.m in Sources */,
+				D41817FC191CE28200A351B6 /* TotalTimeLabel.m in Sources */,
+				D4163F431917CA3A00F832BB /* AppDelegate.m in Sources */,
+				D418185719220A2300A351B6 /* SectionViewTitle.m in Sources */,
+				D418184D191D437F00A351B6 /* FirstJWGCircleCounter.m in Sources */,
+				D4163F3F1917CA3A00F832BB /* main.m in Sources */,
+				D418184E191D437F00A351B6 /* JWGCircleCounter.m in Sources */,
+				D45970F1191A25BF0002088B /* FirstViewToolbar.m in Sources */,
+				D4163F6C1917D35800F832BB /* QBFlatButton.m in Sources */,
+				D45970EE191A1D460002088B /* StartButton.m in Sources */,
+				D4181851191D484B00A351B6 /* SetJWGCircleCounter.m in Sources */,
+				D45970F6191A4F7D0002088B /* PickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4163F4F1917CA3A00F832BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4163F611917CA3A00F832BB /* TimeKeeper7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4163F591917CA3A00F832BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4163F2E1917CA3A00F832BB /* TimeKeeper7 */;
+			targetProxy = D4163F581917CA3A00F832BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4163F3B1917CA3A00F832BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4163F3C1917CA3A00F832BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4163F441917CA3A00F832BB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4163F451917CA3A00F832BB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D4163F471917CA3A00F832BB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4163F481917CA3A00F832BB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D4163F5D1917CA3A00F832BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4163F5E1917CA3A00F832BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4163F621917CA3A00F832BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4163F631917CA3A00F832BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4163F651917CA3A00F832BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeKeeper7/TimeKeeper7-Prefix.pch";
+				INFOPLIST_FILE = "TimeKeeper7/TimeKeeper7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4163F661917CA3A00F832BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeKeeper7/TimeKeeper7-Prefix.pch";
+				INFOPLIST_FILE = "TimeKeeper7/TimeKeeper7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D4163F681917CA3A00F832BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeKeeper7.app/TimeKeeper7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeKeeper7/TimeKeeper7-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TimeKeeper7Tests/TimeKeeper7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D4163F691917CA3A00F832BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TimeKeeper7.app/TimeKeeper7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TimeKeeper7/TimeKeeper7-Prefix.pch";
+				INFOPLIST_FILE = "TimeKeeper7Tests/TimeKeeper7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4163F2A1917CA3A00F832BB /* Build configuration list for PBXProject "TimeKeeper7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4163F621917CA3A00F832BB /* Debug */,
+				D4163F631917CA3A00F832BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4163F641917CA3A00F832BB /* Build configuration list for PBXNativeTarget "TimeKeeper7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4163F651917CA3A00F832BB /* Debug */,
+				D4163F661917CA3A00F832BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4163F671917CA3A00F832BB /* Build configuration list for PBXNativeTarget "TimeKeeper7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4163F681917CA3A00F832BB /* Debug */,
+				D4163F691917CA3A00F832BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4163F271917CA3A00F832BB /* Project object */;
+}
